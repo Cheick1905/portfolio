@@ -1,0 +1,35 @@
+body{
+    background-color: whitesmoke;
+}
+
+h1{
+    background-color: rgb(213, 198, 175);
+    font-size: 55px;
+}
+p {
+    font-size: 25px;
+}
+p strong {
+    color: rgba(0, 0, 255, 0.731);
+}
+details summary{
+    font-size: 18px;
+}
+header ul li {
+    font-size:18px ;
+}
+.typed-text{
+    font-size: 20em;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid rgb(41, 221, 28);
+    animation: typing 2s steps(30, end), 6.7 step-end infinite;
+    width: 0;
+}
+@keyframes typing {
+    from { width: 0;}
+    to { width: 100;}
+}
+@keyframes blink {
+    50% { border-color: rgb(21, 43, 183);}
+}

@@ -1,0 +1,18 @@
+h1{
+    font-size: 60px;
+}
+body{
+    background-color:rgba(245, 222, 179, 0.18);
+}
+p{
+    font-size: x-large;
+    color: black;
+}
+header ol{
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+}
+header ul li{
+    color: rgba(27, 203, 54, 0.758);
+    font-size: 78;
+}
